@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>index</title>
+	<link rel="stylesheet" href="css/all.min.css" />
+	<link rel="stylesheet" href="css/main-style.css" />
+</head>
+
+<body>
+	<div class="page d-flex">
+		<div class="content w-full">
+			<header class="firstpage">
+				<nav class="container ">
+					<ul class="header-ul" style="justify-content: center;">
+						<li class="website-name">مشروك API</li>
+					</ul>
+				</nav>
+			</header>
+			<!-- End Head -->
+			<h1 class="p-relative"> مشروك API</h1>
+			<!-- Start Projects Table -->
+			<div class="projects p-20 bg-white rad-10 m-20">
+				<div class="responsive-table">
+					<table class="fs-15 w-full">
+						<thead>
+							<tr>
+								<td>الداتا / اسم النموذج</td>
+								<td>تجاري</td>
+								<td>  ارض</td>
+								<td> فيلا</td>
+								<td> عمارة</td>
+								<td> بدون عقار </td>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>نوع الشريك
+									<br>
+									partner_type
+								</td>
+								<td class="bg-red c-white">تجاري
+									<br>
+									1
+								</td>
+								<td class=" bg-blue c-white ">عقاري<br> 0</td>
+								<td class=" bg-blue c-white ">عقاري<br> 0</td>	
+								<td class=" bg-blue c-white ">عقاري<br> 0</td>	
+								<td class=" bg-blue c-white ">عقاري<br> 0</td>	
+							</tr>
+							<tr>
+								<td>غرض الشراكة<br>purpose</td>
+								<td></td>
+								<td class="bg-eee c-white">استثمار وتملك <br> 1  &nbsp; &nbsp;     0</td>
+								<td class="bg-green c-white">تملك <br> 1 </td>
+								<td class="bg-eee c-white">استثمار وتملك <br> 1  &nbsp; &nbsp;     0</td>
+								<td class="bg-eee c-white">استثمار وتملك <br> 1   &nbsp; &nbsp;    0</td>
+							</tr>
+							<tr>
+								<td>نوع العقار<br>property_type</td>
+								<td></td>
+								<td class="bg-blue c-white">أرض<br>2</td>
+								<td class="bg-red c-white">فيلا<br>3</td>
+								<td class="bg-orange c-white">عمارة<br>1</td>
+								<td class="bg-eee c-white">أرض  او فيلا او عمارة<br> 2 &nbsp;&nbsp;&nbsp;&nbsp; 3 &nbsp;&nbsp;&nbsp;&nbsp; 1</td>
+							</tr>
+							<tr>
+								<td>لديك عقار<br>have_property</td>
+								<td></td>
+								<td class="bg-eee c-white">نعم او لا <br>0 &nbsp; &nbsp; 1</td>
+								<td class="bg-eee c-white">نعم او لا <br>0 &nbsp; &nbsp; 1</td>
+								<td class="bg-eee c-white">نعم او لا <br>0 &nbsp; &nbsp; 1</td>
+								<td class="bg-eee c-white">نعم او لا <br>0 &nbsp; &nbsp; 1</td>
+							</tr>
+							<tr>
+								<td>المدينة<br>city_id</td>
+								<td class="bg-green c-white">city_id</td>
+								<td class="bg-green c-white">city_id</td>
+								<td class="bg-green c-white">city_id</td>
+								<td class="bg-green c-white">city_id</td>
+								<td class="bg-green c-white">city_id</td>
+							</tr>
+							<tr>
+								<td>الحي<br>partnerNeighborhoods</td>
+								<td></td>
+								<td class="bg-green c-white">id</td>
+								<td class="bg-green c-white">id  </td>
+								<td class="bg-green c-white">id</td>
+								<td class="bg-red c-white">ids</td>
+							</tr>
+							<tr>
+								<td>النوع ف العقار</td>
+								<td></td>
+								<td class="bg-green c-white">
+									<br>
+									سكني 12
+									<br>
+									<br>
+									سكني  تجاري 13
+									<br>
+
+									<br>
+									تجاري 14 
+									<br>
+									<br>
+									زراعي 15
+									<br>
+									<br>
+									صناعي 16
+									<br>
+								</td>
+								<td class="bg-red c-white"> 
+									
+									<br>	فيلا درج داخلي وشقة <br>
+									<br>	فيلا دورين <br>
+
+									<br>	فيلا دورين وملحق	<br>
+								</td>
+								<td class="bg-blue c-white">
+									<br> 4	عماره (شقق سكنية)<br> 
+									<br> 5	عماره شقق مفروشه <br>
+									<br> 6	عماره محلات و شقق سكنية <br>
+									<br> 7	عماره محلات و شقق مفروشه <br>
+									<br> 8	عمارة محلات <br>
+									<br> 9	عمارة محلات ومكاتب<br>
+									<br> 10	عمارة مكاتب <br>
+									<br> 11	بلازا<br>
+								</td>
+								<td></td>
+							</tr>
+							<tr>
+								<td>رقم المخطط <br>plan_number</td>
+								<td></td>
+								<td class="bg-green c-white">قيمة</td>
+								<td class="bg-green c-white"> قيمة </td>
+								<td class="bg-green c-white">قيمة  </td>
+								<td></td>
+							</tr>
+							<tr>
+								<td>رقم القطعة<br>property_number</td>
+								<td></td>
+								<td class="bg-green c-white">قيمة</td>
+								<td class="bg-green c-white"> قيمة </td>
+								<td class="bg-green c-white">قيمة  </td>
+								<td></td>
+							</tr>
+							<tr>
+								<td>عرض الشارع<br>street_width</td>
+								<td></td>
+								<td class="bg-green c-white">قيمة</td>
+								<td class="bg-green c-white"> قيمة </td>
+								<td class="bg-green c-white">قيمة  </td>
+								<td class="bg-green c-white">قيمة</td>
+							</tr>
+							<tr>
+								<td>المساحة<br>property_area</td>
+								<td></td>
+								<td class="bg-green c-white">قيمة</td>
+								<td class="bg-green c-white"> قيمة </td>
+								<td class="bg-green c-white">قيمة  </td>
+								<td class="bg-green c-white">قيمة</td>
+							</tr>
+							<tr>
+								<td>الواجهة <br>directions</td>
+								<td></td>
+								<td class="bg-green c-white">id</td>
+								<td class="bg-green c-white"> id </td>
+								<td>  </td>
+								<td class="bg-red c-white">ids</td>
+							</tr>
+							<tr>
+								<td>الصور <br>images</td>
+								<td></td>
+								<td></td>
+								<td class="bg-green c-white">قيمة</td>
+								<td class="bg-green c-white">قيمة</td>
+								<td></td>
+							</tr>
+							<tr>
+								<td>عدد الشركاء<br> partners_count</td>
+								<td></td>
+								<td class="bg-green c-white">قيمة</td>
+								<td class="bg-green c-white">قيمة</td>
+								<td class="bg-green c-white">قيمة</td>
+								<td class="bg-green c-white">قيمة</td>
+							</tr>
+							<tr>
+								<td>مبلغ الشراكة<br> capital </td>
+								<td class="bg-green c-white">قيمة</td>
+								<td class="bg-green c-white">قيمة</td>
+								<td class="bg-green c-white"> قيمة </td>
+								<td class="bg-green c-white">قيمة</td>
+								<td class="bg-green c-white">قيمة</td>
+							</tr>
+							<tr>
+								<td>قابل للتفاوض <br>negotiable</td>
+								<td></td>
+								<td class="bg-eee c-white"> 1 نعم &nbsp; &nbsp;&nbsp; &nbsp; لا 0 </td>
+								<td class="bg-eee c-white"> 1 نعم &nbsp; &nbsp;&nbsp; &nbsp; لا 0 </td>
+								<td class="bg-eee c-white"> 1 نعم &nbsp; &nbsp;&nbsp; &nbsp; لا 0 </td>
+								<td class="bg-eee c-white"> 1 نعم &nbsp; &nbsp;&nbsp; &nbsp; لا 0 </td>
+							</tr>
+							<tr>
+								<td>ارغب في تمويل عقاري<br> needs_money</td>
+								<td></td>
+								<td class="bg-eee c-white"> 1 نعم &nbsp; &nbsp;&nbsp; &nbsp; لا 0 </td>
+								<td class="bg-eee c-white"> 1 نعم &nbsp; &nbsp;&nbsp; &nbsp; لا 0 </td>
+								<td class="bg-eee c-white"> 1 نعم &nbsp; &nbsp;&nbsp; &nbsp; لا 0 </td>
+								<td class="bg-eee c-white"> 1 نعم &nbsp; &nbsp;&nbsp; &nbsp; لا 0 </td>
+							</tr>
+							<tr>
+								<td>وصف مختصر<br>title</td>
+								<td class="bg-green c-white">قيمة</td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+							</tr>
+							<tr>
+								<td>المجال<br>domain_id</td>
+								<td class="bg-green c-white">
+									1 محلل <br>
+									2 ورشة <br>
+									3 مصنع <br>
+									4 بضاعة  <br>
+								</td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+							</tr>
+							<tr>
+								<td>تفاصيل اضافية<br>description</td>
+								<td class="bg-green c-white">قيمة</td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+							</tr>
+							<tr>
+								<td>حالة المشروع<br>project_status</td>
+								<td class="bg-green c-white">0 قائم <br> 1 جديد</td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+							</tr>
+							<tr>
+								<td>مساهمتك <br>user_contribution </td>
+								<td class="bg-green c-white">0 المجهود <br> 1 راس المال</td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+							</tr>
+							<tr>
+								<td>مساهمة الاخر<br>other_contribution</td>
+								<td class="bg-green c-white">0 المجهود <br> 1 راس المال</td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+							</tr>
+							<tr>
+								<td>عمر العقار<br>property_age</td>
+								<td></td>
+								<td></td>
+								<td class="bg-green c-white">قيمة</td>
+								<td class="bg-green c-white">قيمة</td>
+								<td></td>
+							</tr>
+							<tr>
+								<td>عدد الوحدات</td>
+								<td></td>
+								<td></td>
+								<td class="bg-green c-white">موجودة</td>
+								<td></td>
+								<td></td>
+							</tr>
+							<tr>
+								<td>عدد الادوار <br> property_floors</td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td class="bg-green c-white">قيمة</td>
+								<td></td>
+							</tr>
+							<tr>
+								<td>عدد شقق</td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td class="bg-green c-white">موجودة</td>
+								<td></td>
+							</tr>
+							<tr>
+								<td>عدد محلات</td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td class="bg-green c-white">موجودة</td>
+								<td></td>
+							</tr>
+							<tr>
+								<td>عدد مكاتب</td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td class="bg-green c-white">موجودة</td>
+								<td></td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+			<!-- End Projects Table -->
+			<!-- <ul class="pagination">
+				<li class="arrow-replace"><a href="#" rel="next" >&#9658;</a></li>
+				<li class="listt">
+					<select class="pagination-dropdown">
+						<option class="options" value="#page1" selected>1</option>
+						<option class="options" value="#page2">2</option>
+						<option class="options" value="#page3">3</option>
+					</select>
+				</li>
+				<li class="listt">
+					<select class="pagination-dropdown">
+						<option class="options" value="#page1" selected>5 / صفحة</option>
+						<option class="options" value="#page2">10 / صفحة</option>
+						<option class="options" value="#page3">50 / صفحة</option>
+						<option class="options" value="#page2">100 / صفحة</option>
+					</select>
+				</li>
+				<li class="arrow-replace"><a href="#" rel="prev" style="transform:rotate(180deg)">&#9658;</a></li>
+			</ul> -->
+		</div>
+		
+	</div>
+</body>
+
+</html>
